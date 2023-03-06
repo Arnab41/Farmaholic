@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./trowel2.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sree Krushnadevaraya:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre ExtraBold:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre SemiBold:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arial:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="trowel">
+      <img class="trowel-child" alt="" src="public/rectangle-11.svg" /><input
+        class="search-box5"
+        type="text"
+      /><img class="fislack-icon5" alt="" src="public/fislack5.svg" />
+      <div class="logo6" id="logoContainer">
+        <div class="farmaholic5">farmaholic</div>
+      </div>
+      <div class="products5" id="productsText">products</div>
+      <div class="support5" id="supportText">support</div>
+      <div class="trowel1">trowel</div>
+      <b class="name-trowel-container"
+        ><p class="name4">name : trowel</p>
+        <p class="name4">type : tool</p>
+        <p class="name4">quantity : 1</p>
+        <p class="name4">price : ₹100/-</p></b
+      >
+      <div class="trowel-item"></div>
+      <div class="buy-now4">Buy now</div>
+      <img
+        class="trowel-with-pvc-handle-3201045-icon"
+        alt=""
+        src="public/trowelwithpvchandle32010459545732-1@2x.png"
+      />
+    </div>
+
+    <script>
+      var logoContainer = document.getElementById("logoContainer");
+      if (logoContainer) {
+        logoContainer.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var productsText = document.getElementById("productsText");
+      if (productsText) {
+        productsText.addEventListener("click", function (e) {
+          window.location.href = "./products.html";
+        });
+      }
+      
+      var supportText = document.getElementById("supportText");
+      if (supportText) {
+        supportText.addEventListener("click", function (e) {
+          window.location.href = "./support.html";
+        });
+      }
+      </script>
+  </body>
+</html>

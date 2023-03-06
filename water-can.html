@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./water-can.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sree Krushnadevaraya:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre ExtraBold:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre SemiBold:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arial:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="water-can">
+      <img class="water-can-child" alt="" src="public/rectangle-11.svg" /><input
+        class="search-box3"
+        type="text"
+      /><img class="fislack-icon3" alt="" src="public/fislack1.svg" />
+      <div class="logo4" id="logoContainer">
+        <div class="farmaholic3">farmaholic</div>
+      </div>
+      <div class="products3" id="productsText">products</div>
+      <div class="support3" id="supportText">support</div>
+      <div class="water-can1">water can</div>
+      <b class="name-water-container"
+        ><p class="name2">name : water can</p>
+        <p class="name2">type : watering plants</p>
+        <p class="name2">quantity : 1</p>
+        <p class="name2">price : ₹449/-</p></b
+      >
+      <div class="water-can-item"></div>
+      <div class="buy-now2">Buy now</div>
+      <img
+        class="icon"
+        alt=""
+        src="public/10000113092461000011309245-012100-1@2x.png"
+      />
+    </div>
+
+    <script>
+      var logoContainer = document.getElementById("logoContainer");
+      if (logoContainer) {
+        logoContainer.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var productsText = document.getElementById("productsText");
+      if (productsText) {
+        productsText.addEventListener("click", function (e) {
+          window.location.href = "./products.html";
+        });
+      }
+      
+      var supportText = document.getElementById("supportText");
+      if (supportText) {
+        supportText.addEventListener("click", function (e) {
+          window.location.href = "./support.html";
+        });
+      }
+      </script>
+  </body>
+</html>

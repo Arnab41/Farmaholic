@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./fretilizer1.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sree Krushnadevaraya:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre ExtraBold:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre SemiBold:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arial:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="fretilizer">
+      <img
+        class="fretilizer-child"
+        alt=""
+        src="public/rectangle-11.svg"
+      /><input class="search-box2" type="text" /><img
+        class="fislack-icon2"
+        alt=""
+        src="public/fislack2.svg"
+      />
+      <div class="logo3" id="logoContainer">
+        <div class="farmaholic2">farmaholic</div>
+      </div>
+      <div class="products2" id="productsText">products</div>
+      <div class="support2" id="supportText">support</div>
+      <div class="organic-manure">Organic manure</div>
+      <b class="name-organic-container"
+        ><p class="name1">name : organic manure</p>
+        <p class="name1">type : fertilizer</p>
+        <p class="name1">quantity : 1kg</p>
+        <p class="name1">price : ₹799/-</p></b
+      >
+      <div class="fretilizer-item"></div>
+      <div class="buy-now1">Buy now</div>
+      <img
+        class="best-organic-fertilizers-1200x-icon"
+        alt=""
+        src="public/bestorganicfertilizers1200x667@2x.png"
+      />
+    </div>
+
+    <script>
+      var logoContainer = document.getElementById("logoContainer");
+      if (logoContainer) {
+        logoContainer.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var productsText = document.getElementById("productsText");
+      if (productsText) {
+        productsText.addEventListener("click", function (e) {
+          window.location.href = "./products.html";
+        });
+      }
+      
+      var supportText = document.getElementById("supportText");
+      if (supportText) {
+        supportText.addEventListener("click", function (e) {
+          window.location.href = "./support.html";
+        });
+      }
+      </script>
+  </body>
+</html>

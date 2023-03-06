@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./urea1.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sree Krushnadevaraya:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre ExtraBold:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre SemiBold:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arial:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="urea">
+      <img class="urea-child" alt="" src="public/rectangle-11.svg" /><input
+        class="search-box1"
+        type="text"
+      /><img class="fislack-icon1" alt="" src="public/fislack1.svg" />
+      <div class="logo2" id="logoContainer">
+        <div class="farmaholic1">farmaholic</div>
+      </div>
+      <div class="products1" id="productsText">products</div>
+      <div class="support1" id="supportText">support</div>
+      <div class="uera">uera</div>
+      <b class="name-urea-container"
+        ><p class="name">name : urea</p>
+        <p class="name">type : fretilizer</p>
+        <p class="name">quantity : 1kg</p>
+        <p class="name">price : ₹575/-</p></b
+      >
+      <div class="urea-item"></div>
+      <div class="buy-now">Buy now</div>
+      <img
+        class="shutterstock-262759445-min-2-icon"
+        alt=""
+        src="public/shutterstock-262759445min2@2x.png"
+      />
+    </div>
+
+    <script>
+      var logoContainer = document.getElementById("logoContainer");
+      if (logoContainer) {
+        logoContainer.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var productsText = document.getElementById("productsText");
+      if (productsText) {
+        productsText.addEventListener("click", function (e) {
+          window.location.href = "./products.html";
+        });
+      }
+      
+      var supportText = document.getElementById("supportText");
+      if (supportText) {
+        supportText.addEventListener("click", function (e) {
+          window.location.href = "./support.html";
+        });
+      }
+      </script>
+  </body>
+</html>

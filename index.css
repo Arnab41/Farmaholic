@@ -1,0 +1,513 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.group-child,
+.landing-page-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1284px;
+  height: 76px;
+}
+.group-child {
+  top: 74.09px;
+  background-color: #cda792;
+  width: 1280px;
+  height: 337.91px;
+}
+.shop-now {
+  top: 0;
+  left: 63px;
+  font-size: var(--font-size-2xl);
+  color: var(--color-gray-100);
+  width: 248px;
+  height: 53.01px;
+}
+.fertilizers,
+.seeds,
+.shop-now,
+.tools,
+.view-all-products {
+  position: absolute;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.view-all-products {
+  top: 20.25px;
+  left: 1105.78px;
+  text-decoration: underline;
+  color: var(--color-gray-100);
+  width: 166.22px;
+  height: 40.58px;
+  cursor: pointer;
+}
+.fertilizers,
+.seeds,
+.tools {
+  top: 78.23px;
+  left: 186.67px;
+  width: 128.89px;
+  height: 26.5px;
+}
+.seeds,
+.tools {
+  left: 610.67px;
+  width: 44.44px;
+  height: 40.58px;
+}
+.seeds {
+  left: 1045.33px;
+  width: 188.44px;
+  height: 24.85px;
+}
+.download-icon,
+.group-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.group-item {
+  border-radius: var(--br-sm);
+  background-color: var(--white);
+  border-left: 10px solid var(--color-olivedrab);
+  box-sizing: border-box;
+  width: 303.11px;
+  height: 206.23px;
+}
+.download-icon {
+  width: 295.11px;
+  height: 205.4px;
+  object-fit: cover;
+}
+.group-inner {
+  position: absolute;
+  top: 84.48px;
+  left: 275.56px;
+  border-radius: var(--br-md);
+  background-color: var(--color-olivedrab);
+  width: 40px;
+  height: 37.27px;
+}
+.polygon-icon {
+  position: absolute;
+  top: 96.21px;
+  left: 294.32px;
+  border-radius: var(--br-xs);
+  width: 9.15px;
+  height: 14.03px;
+}
+.download-parent,
+.rectangle-group {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  width: 315.56px;
+  height: 205.4px;
+}
+.rectangle-group {
+  top: 121.29px;
+  left: 73.78px;
+  width: 323.56px;
+  height: 206.23px;
+  cursor: pointer;
+}
+.farming-tools-digging-garden-w-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 234.67px;
+  height: 198.77px;
+  object-fit: cover;
+}
+.group-child1 {
+  position: absolute;
+  top: 83.65px;
+  left: 247.11px;
+  border-radius: var(--br-md);
+  background-color: var(--color-olivedrab);
+  width: 40px;
+  height: 37.27px;
+}
+.group-child2 {
+  position: absolute;
+  top: 95.38px;
+  left: 265.87px;
+  border-radius: var(--br-xs);
+  width: 9.15px;
+  height: 14.03px;
+}
+.farming-tools-digging-garden-w-parent {
+  position: absolute;
+  top: 0.83px;
+  left: 36.44px;
+  width: 287.11px;
+  height: 198.77px;
+}
+.rectangle-container {
+  position: absolute;
+  top: 120.47px;
+  left: 494.22px;
+  width: 323.56px;
+  height: 206.23px;
+  cursor: pointer;
+}
+.group-child3 {
+  position: absolute;
+  top: 0.83px;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--white);
+  border-left: 10px solid var(--color-olivedrab);
+  box-sizing: border-box;
+  width: 303.11px;
+  height: 206.23px;
+}
+.healthiest-seeds-2000-fcd0e571-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 294.22px;
+  height: 207.06px;
+  object-fit: cover;
+}
+.group-child4 {
+  position: absolute;
+  top: 85.31px;
+  left: 274.67px;
+  border-radius: var(--br-md);
+  background-color: var(--color-olivedrab);
+  width: 40px;
+  height: 37.27px;
+}
+.group-child5 {
+  position: absolute;
+  top: 97.03px;
+  left: 293.43px;
+  border-radius: var(--br-xs);
+  width: 9.15px;
+  height: 14.03px;
+}
+.group-div,
+.healthiest-seeds-2000-fcd0e571-parent {
+  position: absolute;
+  top: 0;
+  left: 8.89px;
+  width: 314.67px;
+  height: 207.06px;
+}
+.group-div {
+  top: 120.47px;
+  left: 919.11px;
+  width: 323.56px;
+  cursor: pointer;
+}
+.all-items-20,
+.upto-50,
+.upto-80 {
+  position: absolute;
+  top: 329.18px;
+  left: 158.22px;
+  font-size: var(--font-size-sm);
+  text-transform: capitalize;
+  font-family: var(--font-abhaya-libre-extrabold);
+  color: var(--white);
+  display: inline-block;
+  width: 113.78px;
+  height: 24.02px;
+}
+.all-items-20,
+.upto-50 {
+  top: 341.6px;
+  left: 579.56px;
+  width: 137.78px;
+  height: 17.39px;
+}
+.upto-50 {
+  top: 334.98px;
+  left: 1020.44px;
+  width: 115.56px;
+  height: 20.71px;
+}
+.langing-image-1,
+.rectangle-parent {
+  position: absolute;
+  top: 420px;
+  left: -2px;
+  width: 1280px;
+  height: 412px;
+}
+.langing-image-1 {
+  top: 20px;
+  left: 0;
+  width: 1284.39px;
+  height: 361px;
+  object-fit: cover;
+}
+.discover,
+.our-new-products {
+  position: absolute;
+  left: 104px;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.our-new-products {
+  top: 71px;
+  width: 700px;
+  height: 122px;
+}
+.discover {
+  top: calc(50% - 190.5px);
+  color: #aeeb62;
+  width: 434px;
+  height: 123px;
+}
+.ellipse-icon,
+.group-child6 {
+  position: absolute;
+  top: 8.36px;
+  left: -40px;
+  width: 286.35px;
+  height: 266.64px;
+}
+.group-child6 {
+  top: 72.83px;
+  left: 117.93px;
+  width: 22.15px;
+  height: 19.81px;
+}
+.group-child7,
+.vector-icon {
+  position: absolute;
+  top: -5px;
+  left: 121.4px;
+  width: 70.59px;
+  height: 96.23px;
+}
+.group-child7 {
+  top: 65.08px;
+  left: 135.84px;
+  width: 18.6px;
+  height: 19.97px;
+}
+.group-child8,
+.group-child9 {
+  position: absolute;
+  top: 65.83px;
+  left: 145.79px;
+  width: 8.06px;
+  height: 7.92px;
+}
+.group-child9 {
+  top: 64.23px;
+  left: 146.4px;
+  width: 8.41px;
+  height: 8.19px;
+}
+.group-child10,
+.group-child11,
+.vector-input {
+  border: 3px solid var(--color-gray-200);
+  background-color: transparent;
+  position: absolute;
+  top: 66.37px;
+  left: 148.79px;
+  box-sizing: border-box;
+  width: 6.14px;
+  height: 4.32px;
+}
+.group-child10,
+.group-child11 {
+  top: 68.41px;
+  left: 151.23px;
+  width: 4.48px;
+  height: 3.65px;
+}
+.group-child11 {
+  top: 68.39px;
+  left: 152.16px;
+  width: 3.7px;
+  height: 3.21px;
+}
+.group-child12,
+.group-child13 {
+  position: absolute;
+  top: 190.11px;
+  left: 1138.98px;
+  width: 0.12px;
+  height: 2.72px;
+}
+.group-child13 {
+  top: 64.95px;
+  left: 146.89px;
+  width: 8.44px;
+  height: 6.7px;
+}
+.group-child14,
+.group-child15 {
+  position: absolute;
+  top: 64.29px;
+  left: 147.72px;
+  width: 7.47px;
+  height: 7.84px;
+}
+.group-child15 {
+  top: 64.67px;
+  left: 146.75px;
+  width: 8.78px;
+  height: 7.19px;
+}
+.div,
+.group-child16,
+.off {
+  position: absolute;
+  top: 74.5px;
+  left: 136.03px;
+  width: 7.95px;
+  height: 9.86px;
+}
+.div,
+.off {
+  top: 0;
+  left: 0;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 105.84px;
+  height: 41.93px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.off {
+  top: 41.93px;
+  left: 5.96px;
+  width: 86.96px;
+  height: 43.93px;
+}
+.ellipse-parent,
+.parent {
+  position: absolute;
+  top: 95.19px;
+  left: 47.7px;
+  width: 105.84px;
+  height: 85.87px;
+}
+.ellipse-parent {
+  top: 65px;
+  left: 978px;
+  width: 187px;
+  height: 215px;
+  font-size: var(--font-size-2xl);
+  color: var(--color-darkgreen);
+  font-family: var(--font-abhaya-libre-semibold);
+}
+.langing-image-1-parent {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  width: 1284.39px;
+  height: 381px;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--white);
+  font-family: var(--font-sree-krushnadevaraya);
+}
+.search-box {
+  border: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xs);
+  background-color: var(--white);
+  position: absolute;
+  top: 18px;
+  left: 837px;
+  border-radius: var(--br-sm);
+  width: 386px;
+  height: 37px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-lg) var(--padding-sm)
+    var(--padding-md);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fislack-icon {
+  position: absolute;
+  height: 43.97%;
+  width: 3.19%;
+  top: 25.09%;
+  right: 93.49%;
+  bottom: 30.93%;
+  left: 3.32%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.farmaholic {
+  position: relative;
+  font-size: var(--font-size-lg);
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--white);
+  text-align: left;
+}
+.logo,
+.logo1 {
+  position: absolute;
+}
+.logo {
+  top: 17px;
+  left: 104px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.logo1 {
+  top: 8px;
+  left: 335px;
+}
+.products {
+  top: 23px;
+  left: 315px;
+  font-size: var(--font-size-base);
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--white);
+  text-align: left;
+  cursor: pointer;
+}
+.navs,
+.products,
+.support {
+  position: absolute;
+}
+.support {
+  top: 24px;
+  left: 440px;
+  font-size: var(--font-size-base);
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--white);
+  text-align: left;
+  cursor: pointer;
+}
+.navs {
+  top: 0;
+  left: 0;
+  width: 1282px;
+  height: 76px;
+  overflow: hidden;
+}
+.landing-page {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-sree-krushnadevaraya);
+}

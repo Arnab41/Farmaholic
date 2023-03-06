@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.search-box8,
+.strawberry-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1284px;
+  height: 76px;
+}
+.search-box8 {
+  border: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xs);
+  background-color: var(--white);
+  top: 19px;
+  left: 836.4px;
+  border-radius: var(--br-sm);
+  width: 386px;
+  height: 37px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-lg) var(--padding-sm)
+    var(--padding-md);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fislack-icon8 {
+  position: absolute;
+  height: 4.02%;
+  width: 3.2%;
+  top: 2.41%;
+  right: 93.52%;
+  bottom: 93.57%;
+  left: 3.28%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.farmaholic8 {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.logo9 {
+  position: absolute;
+  top: 18px;
+  left: 103.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: var(--font-size-lg);
+}
+.products8 {
+  top: 24px;
+  left: 314.4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.products8,
+.strawberry1,
+.support8 {
+  position: absolute;
+  text-transform: capitalize;
+}
+.support8 {
+  top: 25px;
+  left: 439.4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.strawberry1 {
+  top: 101px;
+  left: 19px;
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-abhaya-libre-extrabold);
+  color: var(--color-black);
+  display: inline-block;
+  width: 638px;
+  height: 119px;
+}
+.name7 {
+  margin-block-start: 0;
+  margin-block-end: 1px;
+}
+.name-strawberry-container {
+  position: absolute;
+  top: 190px;
+  left: 742px;
+  line-height: 50px;
+  text-transform: capitalize;
+  display: inline-block;
+  font-family: var(--font-arial);
+  color: var(--color-black);
+  white-space: pre-wrap;
+  width: 398px;
+  height: 202px;
+}
+.berry-breakfast-calories-close-icon {
+  position: absolute;
+  top: 191px;
+  left: 20px;
+  width: 610px;
+  height: 608px;
+  object-fit: cover;
+}
+.strawberry-item {
+  position: absolute;
+  right: 201px;
+  bottom: 70px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-orangered);
+  width: 337px;
+  height: 81px;
+}
+.buy-now7 {
+  position: absolute;
+  right: 245px;
+  bottom: 82px;
+  font-size: var(--font-size-xl);
+  text-transform: capitalize;
+  font-family: var(--font-abhaya-libre-extrabold);
+  display: inline-block;
+  width: 202px;
+  height: 48px;
+}
+.strawberry {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-inter);
+}

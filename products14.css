@@ -1,0 +1,456 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.products-child,
+.products-item,
+.search-box12 {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  width: 1284px;
+  height: 76px;
+}
+.products-item,
+.search-box12 {
+  left: 0;
+}
+.search-box12 {
+  border: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xs);
+  background-color: var(--white);
+  top: 16px;
+  left: 834.4px;
+  border-radius: var(--br-sm);
+  width: 386px;
+  height: 37px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-lg) var(--padding-sm)
+    var(--padding-md);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fislack-icon12 {
+  position: absolute;
+  height: 4.02%;
+  width: 3.2%;
+  top: 1.93%;
+  right: 93.68%;
+  bottom: 94.05%;
+  left: 3.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.farmaholic12 {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 600;
+  cursor: pointer;
+}
+.logo13 {
+  position: absolute;
+  top: 14px;
+  left: 101.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: var(--font-size-lg);
+}
+.products13,
+.support14 {
+  position: absolute;
+  top: 20px;
+  left: 312.4px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.support14 {
+  top: 21px;
+  left: 437.4px;
+  cursor: pointer;
+}
+.group-child17,
+.group-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 209.89px;
+  height: 281.01px;
+}
+.group-child17 {
+  background-color: var(--color-darkolivegreen);
+  height: 280.73px;
+}
+.group-child18,
+.rectangle-parent1 {
+  position: absolute;
+  top: 0.17px;
+  left: 0;
+  width: 209.89px;
+  height: 228.23px;
+}
+.rectangle-parent1 {
+  top: 0;
+  height: 280.73px;
+  cursor: pointer;
+}
+.group-child19,
+.group-child20 {
+  position: absolute;
+  top: 246.84px;
+  left: 176.36px;
+  width: 26.72px;
+  height: 26.48px;
+}
+.group-child20 {
+  height: 6.11%;
+  width: 6.99%;
+  top: 89.58%;
+  right: 5.55%;
+  bottom: 4.32%;
+  left: 87.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.g,
+.shoeblackplant-seed {
+  position: absolute;
+  top: 250.17px;
+  left: 13.47px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 83px;
+  height: 19px;
+}
+.shoeblackplant-seed {
+  top: 232.32px;
+  left: 13.1px;
+  font-size: var(--font-size-2xs);
+  font-family: var(--font-abhaya-libre);
+  width: 131.8px;
+  height: 23.93px;
+}
+.group-parent1 {
+  position: absolute;
+  top: 0;
+  left: 256.53px;
+  width: 209.89px;
+  height: 280.73px;
+}
+.g1,
+.strawberry-seed {
+  position: absolute;
+  top: 250.17px;
+  left: 12.94px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 83px;
+  height: 19px;
+}
+.strawberry-seed {
+  top: 233.32px;
+  left: 13.12px;
+  font-size: var(--font-size-2xs);
+  font-family: var(--font-abhaya-libre);
+  width: 156.95px;
+  height: 23.93px;
+}
+.group-child23,
+.group-child24 {
+  position: absolute;
+  top: 245.84px;
+  left: 176.36px;
+  width: 26.72px;
+  height: 26.48px;
+}
+.group-child24 {
+  height: 6.11%;
+  width: 6.99%;
+  top: 89.22%;
+  right: 5.55%;
+  bottom: 4.67%;
+  left: 87.46%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-parent2 {
+  position: absolute;
+  top: 0;
+  left: 513.06px;
+  width: 209.89px;
+  height: 280.73px;
+  cursor: pointer;
+}
+.g2,
+.papaya-seed1 {
+  position: absolute;
+  top: 249.73px;
+  left: 13.42px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 77px;
+  height: 19px;
+}
+.papaya-seed1 {
+  top: 230.87px;
+  left: 13.14px;
+  font-size: var(--font-size-2xs);
+  font-family: var(--font-abhaya-libre);
+  width: 131.8px;
+  height: 23.93px;
+}
+.group-parent3 {
+  position: absolute;
+  top: 1.44px;
+  left: 769.58px;
+  width: 209.89px;
+  height: 280.73px;
+  cursor: pointer;
+}
+.g3,
+.pomegranate-seed1 {
+  position: absolute;
+  top: 250.17px;
+  left: 12.89px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 83px;
+  height: 19px;
+}
+.pomegranate-seed1 {
+  top: 233.32px;
+  left: 13.16px;
+  font-size: var(--font-size-2xs);
+  font-family: var(--font-abhaya-libre);
+  width: 131.8px;
+  height: 23.93px;
+}
+.group-parent4 {
+  position: absolute;
+  top: 0;
+  left: 1026.11px;
+  width: 209.89px;
+  height: 280.73px;
+  cursor: pointer;
+}
+.group-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1236px;
+  height: 282.17px;
+}
+.g4,
+.sunflower-seed1 {
+  position: absolute;
+  top: 250.17px;
+  left: 8px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 85px;
+  height: 19px;
+}
+.sunflower-seed1 {
+  top: 234.31px;
+  left: 9.05px;
+  font-size: var(--font-size-2xs);
+  font-family: var(--font-abhaya-libre);
+  width: 183.11px;
+  height: 13.96px;
+  cursor: pointer;
+}
+.group-parent {
+  position: absolute;
+  top: 118.83px;
+  left: 22px;
+  width: 1236px;
+  height: 282.17px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-abhaya-libre-extrabold);
+}
+.div1,
+.group-child31,
+.rectangle-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 209.89px;
+}
+.group-child31 {
+  height: 281.01px;
+  cursor: pointer;
+}
+.div1,
+.rectangle-wrapper {
+  height: 280.73px;
+}
+.div1 {
+  top: 250.27px;
+  left: 13.1px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 44.27px;
+  height: 18.94px;
+}
+.group-parent7 {
+  position: absolute;
+  top: 0;
+  left: 256.53px;
+  width: 209.89px;
+  height: 280.73px;
+  cursor: pointer;
+}
+.div2 {
+  top: 250.27px;
+  left: 13.12px;
+  width: 46.28px;
+  height: 18.94px;
+}
+.div2,
+.div3,
+.kg,
+.kg1,
+.trowel3,
+.watering-can {
+  position: absolute;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.watering-can {
+  top: 233.32px;
+  left: 13.12px;
+  font-size: var(--font-size-2xs);
+  font-family: var(--font-abhaya-libre);
+  width: 156.95px;
+}
+.div3,
+.kg,
+.kg1,
+.trowel3 {
+  top: 249.73px;
+  left: 13.42px;
+  width: 62px;
+  height: 19px;
+}
+.div3,
+.kg1,
+.trowel3 {
+  top: 250.17px;
+  left: 12.89px;
+}
+.div3,
+.trowel3 {
+  top: 250.27px;
+  left: 8.05px;
+  width: 36.22px;
+  height: 18.94px;
+}
+.trowel3 {
+  top: 234.31px;
+  left: 9.05px;
+  font-size: var(--font-size-2xs);
+  font-family: var(--font-abhaya-libre);
+  width: 183.11px;
+  height: 13.96px;
+}
+.group-parent5 {
+  position: absolute;
+  top: 489.83px;
+  left: 20px;
+  width: 1236px;
+  height: 282.17px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-abhaya-libre-extrabold);
+}
+.berry-breakfast-calories-close-icon1,
+.hibiscus-flower-tz-icon1,
+.w5-22da0cb0-82e7-4eef-8fe5-0b2-icon1 {
+  position: absolute;
+  top: 117px;
+  left: 22px;
+  width: 210px;
+  height: 230px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.berry-breakfast-calories-close-icon1,
+.hibiscus-flower-tz-icon1 {
+  left: 277px;
+  width: 211px;
+}
+.berry-breakfast-calories-close-icon1 {
+  top: 110px;
+  left: 532px;
+  width: 213px;
+  height: 237px;
+}
+.istockphoto-104638864-612x612-icon1,
+.pomegranate-berries-fruit-ripe-icon1 {
+  position: absolute;
+  top: 117px;
+  left: 791px;
+  width: 210px;
+  height: 235px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.pomegranate-berries-fruit-ripe-icon1 {
+  left: 1048px;
+  height: 230px;
+}
+.best-organic-fertilizers-1200x-icon1,
+.download-1-11 {
+  position: absolute;
+  top: 489px;
+  left: 274px;
+  width: 215px;
+  height: 233px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.best-organic-fertilizers-1200x-icon1 {
+  top: 491px;
+  left: 790px;
+  width: 209px;
+  height: 231px;
+}
+.icon1,
+.shutterstock-262759445-min-2-icon1,
+.trowel-with-pvc-handle-3201045-icon1 {
+  position: absolute;
+  top: 491px;
+  left: 1046px;
+  width: 210px;
+  height: 231px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.icon1,
+.trowel-with-pvc-handle-3201045-icon1 {
+  top: 490px;
+  left: 533px;
+  height: 232px;
+}
+.trowel-with-pvc-handle-3201045-icon1 {
+  left: 20px;
+  height: 234px;
+}
+.products12 {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-inter);
+}

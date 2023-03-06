@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./sunflower-buy.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sree Krushnadevaraya:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre ExtraBold:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre SemiBold:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arial:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="sunflower-buy">
+      <img
+        class="sunflower-buy-child"
+        alt=""
+        src="public/rectangle-11.svg"
+      /><input class="search-box10" type="text" /><img
+        class="fislack-icon10"
+        alt=""
+        src="public/fislack10.svg"
+      />
+      <div class="logo11" id="logoContainer">
+        <div class="farmaholic10">farmaholic</div>
+      </div>
+      <div class="products10" id="productsText">products</div>
+      <div class="support10" id="supportText">support</div>
+      <div class="sunflower-seed">Sunflower seed</div>
+      <img
+        class="w5-22da0cb0-82e7-4eef-8fe5-0b2-icon"
+        alt=""
+        src="public/w5-22da0cb082e74eef8fe50b2de29eeb@2x.png"
+      /><b class="name-sunflower-container"
+        ><p class="name9">name : Sunflower</p>
+        <p class="name9">type : seed</p>
+        <p class="name9">quantity : 250g</p>
+        <p class="name9">price : ₹149/-</p></b
+      >
+      <div class="sunflower-buy-item"></div>
+      <div class="buy-now9">Buy now</div>
+    </div>
+
+    <script>
+      var logoContainer = document.getElementById("logoContainer");
+      if (logoContainer) {
+        logoContainer.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var productsText = document.getElementById("productsText");
+      if (productsText) {
+        productsText.addEventListener("click", function (e) {
+          window.location.href = "./products.html";
+        });
+      }
+      
+      var supportText = document.getElementById("supportText");
+      if (supportText) {
+        supportText.addEventListener("click", function (e) {
+          window.location.href = "./support.html";
+        });
+      }
+      </script>
+  </body>
+</html>

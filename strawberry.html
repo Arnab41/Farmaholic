@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./strawberry2.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sree Krushnadevaraya:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre ExtraBold:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre SemiBold:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arial:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="strawberry">
+      <img
+        class="strawberry-child"
+        alt=""
+        src="public/rectangle-11.svg"
+      /><input class="search-box8" type="text" /><img
+        class="fislack-icon8"
+        alt=""
+        src="public/fislack8.svg"
+      />
+      <div class="logo9" id="logoContainer">
+        <div class="farmaholic8">farmaholic</div>
+      </div>
+      <div class="products8" id="productsText">products</div>
+      <div class="support8" id="supportText">support</div>
+      <div class="strawberry1">Strawberry</div>
+      <b class="name-strawberry-container"
+        ><p class="name7">name : Strawberry</p>
+        <p class="name7">type : seed</p>
+        <p class="name7">quantity : 500g</p>
+        <p class="name7">price : ₹499/-</p></b
+      ><img
+        class="berry-breakfast-calories-close-icon"
+        alt=""
+        src="public/berrybreakfastcaloriescloseup@2x.png"
+      />
+      <div class="strawberry-item"></div>
+      <div class="buy-now7">Buy now</div>
+    </div>
+
+    <script>
+      var logoContainer = document.getElementById("logoContainer");
+      if (logoContainer) {
+        logoContainer.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var productsText = document.getElementById("productsText");
+      if (productsText) {
+        productsText.addEventListener("click", function (e) {
+          window.location.href = "./products.html";
+        });
+      }
+      
+      var supportText = document.getElementById("supportText");
+      if (supportText) {
+        supportText.addEventListener("click", function (e) {
+          window.location.href = "./support.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./flower-buy.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sree Krushnadevaraya:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre ExtraBold:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre SemiBold:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arial:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya Libre:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="flower-buy">
+      <img
+        class="flower-buy-child"
+        alt=""
+        src="public/rectangle-11.svg"
+      /><input class="search-box9" type="text" /><img
+        class="fislack-icon9"
+        alt=""
+        src="public/fislack9.svg"
+      />
+      <div class="logo10" id="logoContainer">
+        <div class="farmaholic9">farmaholic</div>
+      </div>
+      <div class="products9" id="productsText">products</div>
+      <div class="support9" id="supportText">support</div>
+      <div class="shoeblack-plant-seed">shoeblack plant seed</div>
+      <b class="name-shoeblack-container"
+        ><p class="name8">name : Shoeblack</p>
+        <p class="name8">type : seed</p>
+        <p class="name8">quantity : 250g</p>
+        <p class="name8">price : ₹243/-</p></b
+      ><img
+        class="hibiscus-flower-tz-icon"
+        alt=""
+        src="public/hibiscus-flower-tz@2x.png"
+      />
+      <div class="flower-buy-item"></div>
+      <div class="buy-now8">Buy now</div>
+    </div>
+
+    <script>
+      var logoContainer = document.getElementById("logoContainer");
+      if (logoContainer) {
+        logoContainer.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var productsText = document.getElementById("productsText");
+      if (productsText) {
+        productsText.addEventListener("click", function (e) {
+          window.location.href = "./products.html";
+        });
+      }
+      
+      var supportText = document.getElementById("supportText");
+      if (supportText) {
+        supportText.addEventListener("click", function (e) {
+          window.location.href = "./support.html";
+        });
+      }
+      </script>
+  </body>
+</html>

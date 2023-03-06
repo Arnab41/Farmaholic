@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.search-box11,
+.support-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1284px;
+  height: 71px;
+}
+.search-box11 {
+  border: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xs);
+  background-color: var(--white);
+  top: 17px;
+  left: 835.4px;
+  border-radius: var(--br-sm);
+  width: 386px;
+  height: 37px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-lg) var(--padding-sm)
+    var(--padding-md);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fislack-icon11 {
+  position: absolute;
+  height: 4.02%;
+  width: 3.2%;
+  top: 2.17%;
+  right: 93.6%;
+  bottom: 93.81%;
+  left: 3.2%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.farmaholic11 {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 600;
+  cursor: pointer;
+}
+.logo12,
+.products11,
+.support12 {
+  position: absolute;
+  color: var(--white);
+  cursor: pointer;
+}
+.logo12 {
+  top: 16px;
+  left: 102.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-lg);
+}
+.products11,
+.support12 {
+  top: 22px;
+  left: 313.4px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.support12 {
+  top: 23px;
+  left: 438.4px;
+}
+.thankyou1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.thankyou {
+  top: 101px;
+  left: 457px;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  color: #a3d843;
+  width: 366px;
+  height: 60px;
+}
+.for-visiting-our,
+.thankyou,
+.you-can-connect {
+  position: absolute;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.for-visiting-our {
+  top: 184px;
+  left: 370px;
+  font-size: var(--font-size-2xl);
+  font-weight: 600;
+  width: 575px;
+  height: 110px;
+}
+.you-can-connect {
+  top: 294px;
+  left: 32px;
+  font-size: var(--font-size-lg);
+  width: 493px;
+  height: 65px;
+}
+.support-child1,
+.support-child2,
+.support-inner,
+.support-item {
+  position: absolute;
+  top: 424px;
+  left: 32px;
+  background-color: var(--color-gainsboro);
+  width: 270px;
+  height: 328px;
+}
+.support-child1,
+.support-child2,
+.support-inner {
+  left: 347px;
+}
+.support-child1,
+.support-child2 {
+  left: 977px;
+}
+.support-child2 {
+  left: 672px;
+  height: 326.79px;
+}
+.instagram-icon-1,
+.pngtree-facebook-social-media-icon {
+  position: absolute;
+  top: 458px;
+  left: 81px;
+  width: 172px;
+  height: 171px;
+  object-fit: cover;
+}
+.pngtree-facebook-social-media-icon {
+  left: 390px;
+  width: 162.66px;
+}
+.icon-symbol-chat-outline-illus,
+.phone-call-phone-call-icon-1 {
+  position: absolute;
+  top: 458px;
+  left: 721px;
+  width: 171px;
+  height: 171px;
+  object-fit: cover;
+}
+.phone-call-phone-call-icon-1 {
+  left: 1016px;
+  width: 191px;
+}
+.call-us,
+.chat-with-us,
+.facebook,
+.farmaholicin,
+.farmaholicin1,
+.i,
+.instagram {
+  position: absolute;
+  top: 642px;
+  left: 105px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 115px;
+  height: 33px;
+}
+.call-us,
+.chat-with-us,
+.facebook,
+.farmaholicin,
+.farmaholicin1,
+.i {
+  top: 641px;
+  left: 421px;
+}
+.call-us,
+.chat-with-us,
+.farmaholicin,
+.farmaholicin1,
+.i {
+  top: 656px;
+  left: 724px;
+  width: 174px;
+}
+.call-us,
+.farmaholicin,
+.farmaholicin1,
+.i {
+  top: 640px;
+  left: 1068px;
+  width: 115px;
+}
+.farmaholicin,
+.farmaholicin1,
+.i {
+  top: 685px;
+  left: 108px;
+  font-size: var(--font-size-xs);
+  width: 165px;
+  height: 27px;
+}
+.farmaholicin1,
+.i {
+  left: 429px;
+  width: 109px;
+}
+.i {
+  top: 681px;
+  left: 1045px;
+  width: 165px;
+}
+.support11 {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
